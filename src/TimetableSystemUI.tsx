@@ -1021,7 +1021,7 @@ const TimetableSystemUI = () => {
   };
 
   return (
-    <div className={`${bgColor} min-h-screen ${textColor} transition-colors duration-200`}>
+    <div className={`${bgColor} min-h-screen ${textColor} transition-colors duration-200 ${darkMode ? 'dark' : ''}`}>
       <div className="max-w-7xl mx-auto p-6 space-y-6">
         <header className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
           <div>
